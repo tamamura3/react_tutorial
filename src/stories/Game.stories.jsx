@@ -1,5 +1,5 @@
 import React from 'react';
-import { Game } from '../index';
+import { Game } from '../App';
 
 export default {
   title: 'Game',

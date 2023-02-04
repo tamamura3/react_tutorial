@@ -1,5 +1,5 @@
 import React from 'react';
-import { Square } from '../index';
+import { Square } from '../App';
 
 export default {
   title: 'Square',

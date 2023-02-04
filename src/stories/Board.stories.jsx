@@ -1,4 +1,4 @@
-import { Board } from '../index';
+import { Board } from '../App';
 import React from 'react';
 
 export default {

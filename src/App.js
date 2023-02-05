@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-
 
 export function Square(props) {
     return (
@@ -103,7 +101,7 @@ export class Game extends React.Component {
         if (winner) {
             status = 'Winner: ' + winner;
         } else {
-            status = 'Next Player: ' + (this.state.xIsNext ? 'X' : 'O');
+            status = '次のプレイヤー: ' + (this.state.xIsNext ? 'X' : 'O');
         }
 
         return (
@@ -122,11 +120,6 @@ export class Game extends React.Component {
         );
     }
 }
-
-// ========================================
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<Game />);
 
 function calculateWinner(squares) {
     const lines = [
